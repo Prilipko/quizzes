@@ -1,0 +1,165 @@
+1.	Метод read() класса Reader возвращает:	[1 pts.]
+		void
+		char
+correct answer choice	answer choice you marked	int
+		нет такого
+2.	Метод read(char[]) класса Reader возвращает:	[1 pts.]
+		void
+		char
+correct answer choice	answer choice you marked	int
+		нет такого
+3.	Метод read(char[], int) класса Reader возвращает:	[1 pts.]
+		void
+		char
+	answer choice you marked	int
+correct answer choice		нет такого
+	 Incorrect answer
+Feedback:
+4.	Метод read(char[], int, int) класса Reader возвращает:	[1 pts.]
+		void
+		char
+correct answer choice	answer choice you marked	int
+		нет такого
+5.	Метод write(int) класса Writer возвращает:	[1 pts.]
+correct answer choice		void
+		char
+		int
+	answer choice you marked	нет такого
+	 Incorrect answer
+Feedback:
+6.	Метод write(char[]) класса Writer возвращает:	[1 pts.]
+correct answer choice	answer choice you marked	void
+		char
+		int
+		нет такого
+7.	Метод write(char[], int) класса Writer возвращает:	[1 pts.]
+	answer choice you marked	void
+		char
+		int
+correct answer choice		нет такого
+	 Incorrect answer
+Feedback:
+8.	Метод write(char[], int, int) класса Writer возвращает:	[1 pts.]
+correct answer choice	answer choice you marked	void
+		char
+		int
+		нет такого
+9.	У класса Reader метод close:	[1 pts.]
+correct answer choice	answer choice you marked	есть, его желательно вызывать
+		нет
+		есть, но его нет смысла вызывать
+10.	У класса Writer метод close:	[1 pts.]
+correct answer choice	answer choice you marked	есть, его желательно вызывать
+		нет
+		есть, но его нет смысла вызывать
+11.	У класса Reader метод flush:	[1 pts.]
+		есть, его желательно вызывать
+correct answer choice	answer choice you marked	нет
+		есть, но его нет смысла вызывать
+12.	У класса Writer метод flush:	[1 pts.]
+correct answer choice	answer choice you marked	есть, его желательно вызывать
+		нет
+		есть, но его нет смысла вызывать
+13.	Для
+
+Reader in = ...
+такой вызов
+
+int x = in.read();
+и такие вызовы
+
+char[] buff = new char[1];
+int x = in.read(buff);
+эквивалентны?	[1 pts.]
+correct answer choice		да
+	answer choice you marked	нет, первый может ничего не прочитать
+		нет, второй может ничего не прочитать
+	 Incorrect answer
+Feedback:
+14.	Для
+
+Writer out = ...
+такой вызов
+
+out.write('A');
+
+и такие вызовы
+
+char[] buff = {'A'};
+out.write(buff);
+
+эквивалентны?
+
+
+[1 pts.]
+correct answer choice	answer choice you marked	да
+		нет, первый может ничего не записать
+		нет, второй может ничего не записать
+15.	Для
+
+Reader in = ...
+такие вызовы
+
+int x = in.read();
+int y = in.read();
+int z = in.read();
+и такие вызовы
+
+char[] buff = new char[3];
+int с = in.read(buff);
+эквивалентны?	[1 pts.]
+	answer choice you marked	да
+		нет, первый может прочитать меньше трех
+correct answer choice		нет, второй может прочитать меньше трех
+	 Incorrect answer
+Feedback:
+16.	Для
+
+Writer out = ...
+такие вызовы
+
+out.write('A');
+out.write('B');
+out.write('C');
+и такие вызовы
+
+char[] buff = {'A', 'B', 'C'};
+out.write(buff);
+эквивалентны?	[1 pts.]
+correct answer choice	answer choice you marked	да
+		нет, первый может записать меньше трех
+		нет, второй может записать меньше трех
+17.	Метод read() класса Reader может вернуть 0:	[1 pts.]
+		значит, ничего не прочитал
+correct answer choice	answer choice you marked	значит, такое данное
+		значит, больше нет данных
+		нет, не может
+18.	Метод read(char[]) класса Reader может вернуть 0:	[1 pts.]
+		значит, ничего не прочитал
+		значит, больше нет данных
+correct answer choice	answer choice you marked	нет, не может
+19.	Метод read(char[]) класса Reader может вернуть -1:	[1 pts.]
+		значит, ничего не прочитал
+correct answer choice		значит, больше нет данных
+	answer choice you marked	нет, не может
+	 Incorrect answer
+Feedback:
+20.	Метод read() класса Reader может вернуть -1:	[1 pts.]
+		значит, ничего не прочитал
+correct answer choice	answer choice you marked	значит, больше нет данных
+		нет, не может
+21.	Метод read() класса Reader может вернуть 1:	[1 pts.]
+		значит, столько прочитал
+correct answer choice	answer choice you marked	значит, такое данное
+		значит, больше нет данных
+		нет, не может
+22.	Метод read(char[]) класса Reader может вернуть 1:	[1 pts.]
+correct answer choice	answer choice you marked	значит, столько прочитал
+		значит, такое данное
+		значит, больше нет данных
+		нет, не может
+23.	Метод read(int[]) класса Reader возвращает:	[1 pts.]
+		void
+		char
+		int
+correct answer choice	answer choice you marked	нет такого

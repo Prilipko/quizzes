@@ -1,0 +1,154 @@
+Your Responses:	 An arrow next to the choice marks the correct answer
+1.	Метод read() класса InputStream возвращает:	[1 pts.]
+		void
+		byte
+correct answer choice	answer choice you marked	int
+		нет такого
+2.	Метод read(byte[]) класса InputStream возвращает:	[1 pts.]
+		void
+		byte
+correct answer choice	answer choice you marked	int
+		нет такого
+3.	Метод read(byte[], int) класса InputStream возвращает:	[1 pts.]
+		void
+		byte
+		int
+correct answer choice	answer choice you marked	нет такого
+4.	Метод read(byte[], int, int) класса InputStream возвращает:	[1 pts.]
+		void
+		byte
+correct answer choice	answer choice you marked	int
+		нет такого
+5.	Метод write(int) класса OutputStream возвращает:	[1 pts.]
+correct answer choice	answer choice you marked	void
+		byte
+		int
+		нет такого
+6.	Метод write(byte[]) класса OutputStream возвращает:	[1 pts.]
+correct answer choice	answer choice you marked	void
+		byte
+		int
+		нет такого
+7.	Метод write(byte[], int) класса OutputStream возвращает:	[1 pts.]
+		void
+		byte
+		int
+correct answer choice	answer choice you marked	нет такого
+8.	Метод write(byte[], int, int) класса OutputStream возвращает:	[1 pts.]
+correct answer choice	answer choice you marked	void
+		byte
+		int
+		нет такого
+9.	У класса InputStream метод close:	[1 pts.]
+correct answer choice	answer choice you marked	есть, его желательно вызывать
+		нет
+		есть, но его нет смысла вызывать
+10.	У класса OutputStream метод close:	[1 pts.]
+correct answer choice	answer choice you marked	есть, его желательно вызывать
+		нет
+		есть, но его нет смысла вызывать
+11.	У класса InputStream метод flush:	[1 pts.]
+		есть, его желательно вызывать
+correct answer choice	answer choice you marked	нет
+		есть, но его нет смысла вызывать
+12.	У класса OutputStream метод flush:	[1 pts.]
+correct answer choice	answer choice you marked	есть, его желательно вызывать
+		нет
+		есть, но его нет смысла вызывать
+13.	Для
+
+InputStream in = ...
+этот вызов
+
+int x = in.read();
+и эти вызовы
+
+byte[] buff = new byte[1];
+int x = in.read(buff);
+эквивалентны?	[1 pts.]
+correct answer choice	answer choice you marked	да
+		нет, первый может ничего не прочитать
+		нет, второй может ничего не прочитать
+14.	Для
+
+OutputStream out = ...
+этот вызов
+
+out.write(1);
+и эти вызовы
+
+byte[] buff = {1};
+out.write(buff);
+эквивалентны?	[1 pts.]
+correct answer choice	answer choice you marked	да
+		нет, первый может ничего не записать
+		нет, второй может ничего не записать
+15.	Метод read(int[]) класса InputStream возвращает:	[1 pts.]
+		void
+		byte
+	answer choice you marked	int
+correct answer choice		нет такого
+	 Incorrect answer
+Feedback:
+16.	Для
+
+InputStream in = ...
+эти вызовы
+
+int x = in.read();
+int y = in.read();
+int z = in.read();
+и эти вызовы
+
+byte[] buff = new byte[3];
+int с = in.read(buff);
+эквивалентны?	[1 pts.]
+		да
+		нет, первый может прочитать меньше трех
+correct answer choice	answer choice you marked	нет, второй может прочитать меньше трех
+17.	Для
+
+OutputStream out = ...
+эти вызовы
+
+out.write(1);
+out.write(2);
+out.write(3);
+и эти вызовы
+
+byte[] buff = {1, 2, 3};
+out.write(buff);
+
+эквивалентны?	[1 pts.]
+correct answer choice	answer choice you marked	да
+		нет, первый может записать меньше трех
+		нет, второй может записать меньше трех
+18.	Метод read() класса InputStream может вернуть 0:	[1 pts.]
+		значит, ничего не прочитал
+correct answer choice	answer choice you marked	значит, такое данное
+		значит, больше нет данных
+		нет, не может
+19.	Метод read(byte[]) класса InputStream может вернуть 0:	[1 pts.]
+		значит, ничего не прочитал
+		значит, больше нет данных
+correct answer choice	answer choice you marked	нет, не может
+20.	Метод read(byte[]) класса InputStream может вернуть -1:	[1 pts.]
+	answer choice you marked	значит, ничего не прочитал
+correct answer choice		значит, больше нет данных
+		нет, не может
+	 Incorrect answer
+Feedback:
+21.	Метод read() класса InputStream может вернуть -1:	[1 pts.]
+		значит, ничего не прочитал
+correct answer choice	answer choice you marked	значит, больше нет данных
+		нет, не может
+22.	Метод read() класса InputStream может вернуть 1:	[1 pts.]
+		значит, столько прочитал
+correct answer choice	answer choice you marked	значит, такое данное
+		значит, больше нет данных
+		нет, не может
+23.	Метод read(byte[]) класса InputStream может вернуть 1:	[1 pts.]
+correct answer choice	answer choice you marked	значит, столько прочитал
+		значит, такое данное
+		значит, больше нет данных
+		нет, не может
